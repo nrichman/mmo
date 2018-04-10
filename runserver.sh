@@ -1,0 +1,1 @@
+lua5.3 /home/ubuntu/nickstuff > /dev/null 2>&1 &
