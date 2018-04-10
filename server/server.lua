@@ -79,7 +79,7 @@ while running do
 			world[entity] = {x=x, y=y}
 		elseif cmd == 'update' then
 			for k, v in pairs(world) do
-				udp:sendto(string.format("%s %s %d %d", k, 'at', v.x, v.y), msg_or_ip,  port_or_nil)
+				udp:sendto(string.format("%s %s %f %f", k, 'at', v.x, v.y), msg_or_ip,  port_or_nil)
 			end
 		elseif cmd == 'quit' then
 			running = false;
