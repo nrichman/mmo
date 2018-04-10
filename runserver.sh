@@ -1,1 +1,1 @@
-lua5.3 /home/ubuntu/nickstuff > /dev/null 2>&1 &
+lua5.3 /home/ubuntu/nickstuff/server/server.lua > /dev/null 2>&1 &
